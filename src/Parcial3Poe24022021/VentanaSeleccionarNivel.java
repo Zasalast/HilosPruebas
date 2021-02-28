@@ -47,13 +47,13 @@ public class VentanaSeleccionarNivel extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == nivel1) {
-            VentanaPrincipalParcial v1 = new VentanaPrincipalParcial("Parcial 3", 600, 200, false, true,120000);
+            VentanaPrincipalParcial v1 = new VentanaPrincipalParcial("Parcial 3", 600, 250, false, true,120000);
                }else
         if (e.getSource() == nivel1) {
-            VentanaPrincipalParcial v1 = new VentanaPrincipalParcial("Parcial 3", 600, 200, false, true,60000);
+            VentanaPrincipalParcial v1 = new VentanaPrincipalParcial("Parcial 3", 600, 250, false, true,60000);
                   }else
         if (e.getSource() == nivel1) {
-            VentanaPrincipalParcial v1 = new VentanaPrincipalParcial("Parcial 3", 600, 200, false, true,30000);
+            VentanaPrincipalParcial v1 = new VentanaPrincipalParcial("Parcial 3", 600, 250, false, true,30000);
 
         }this.setVisible(false);
     }
